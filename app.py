@@ -2,6 +2,8 @@ import streamlit as st
 import pickle
 import sklearn
 
+st.set_page_config(page_title='IRIS | PRIDICTOR', page_icon='images/favicon.png')
+
 st.title("IRIS FLOWER PRIDICTOR")
 st.image("images/main-iris.png", width=280)
 
